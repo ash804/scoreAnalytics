@@ -49,4 +49,69 @@ public class StudentEntity extends Entity {
 //    public float getMath() {
 //        return math;
 //    }
+
+//    private float physics;
+//    private float chemistry;
+//    private float biology;
+//
+//    public SciencesStudentEntity(){
+//        setPhysics(INITIAL_NUMBER_VALUE);
+//        setChemistry(INITIAL_NUMBER_VALUE);
+//        setBiology(INITIAL_NUMBER_VALUE);
+//    }
+//
+//    public SciencesStudentEntity(String id, String name,String chinese,String math, String english,String physics,String biology,String chemistry){
+//        super(id,name,chinese,math,english);
+//        setPhysics(physics);
+//        setChemistry(biology);
+//        setBiology(chemistry);
+//    }
+//    public void setBiology(String biology) {
+//        this.biology = Float.valueOf(biology);
+//    }
+//
+//    public void setChemistry(String chemistry) {
+//        this.chemistry = Float.valueOf(chemistry);
+//    }
+//
+//    public void setPhysics(String physics) {
+//        this.physics = Float.valueOf(physics);
+//    }
+//
+//    public float getBiology() {
+//        return biology;
+//    }
+//
+//    public float getChemistry() {
+//        return chemistry;
+//    }
+//
+//    public float getPhysics() {
+//        return physics;
+//    }
+
+    //
+//    private float selection=0;
+//    private float subjective=0;
+//
+//    //Setter
+//    public void setSelection(String selection) {
+//        this.selection = Float.valueOf(selection);
+//    }
+//
+//    public void setSubjective(String subjective) {
+//        this.subjective = Float.valueOf(subjective);
+//    }
+//    //Getter
+//    public float getSubjective() {
+//        return subjective;
+//    }
+//
+//    public float getSelection() {
+//        return selection;
+//    }
+//
+//    public float getTotalScore(){
+//        return getSubjective()+getSelection();
+//    }
 }

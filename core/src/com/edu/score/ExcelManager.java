@@ -1,8 +1,6 @@
 package com.edu.score;
 
 import com.edu.score.model.Entity;
-import com.edu.score.model.RankEntity;
-import com.edu.score.model.SciencesStudentEntity;
 import com.edu.score.model.StudentEntity;
 import jxl.Cell;
 import jxl.Sheet;

@@ -69,7 +69,7 @@ public class Entity {
     }
 
     public Set<String> getScoreParamKeyAsSet(){
-        Set<String> set = paramMap.keySet();
+        Set<String> set = new HashSet(paramMap.keySet());
         set.remove(STUDENT_ID_ITEM_NAME);
         set.remove(STUDENT_NAME_ITEM_NAME);
         return set;
@@ -90,8 +90,12 @@ public class Entity {
             return false;
     }
 
+    public double getTotalScoreAsDouble(){
+        return Calculator.sum(getScoreParamValueAsList());
+    }
+
     public String getTotalScoreAsString(){
-        double total = Calculator.sum(getScoreParamValueAsList());
+        double total = getTotalScoreAsDouble();
         if(total <= INVALID_SCORE_VALUE)
             return ABSENCE;
         else

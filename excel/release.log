@@ -8,6 +8,11 @@
 6.In Data sheet(sheet1), one button for generate report, one button for cleaning generated data.
 7. There is no saving for all data.
 
+V1.5
+1. Add a sheet manager to dynamically allocate sheet for different usage and to return indicated sheet
+2. Class sheets will be dynaimcally generated, if same class sheet is generated, the old one will be backup.
+3. Add a new static sheet for saving the score of each question in objective question part.
+
 V2.1
 1. Add a sheet manager to dynamically allocate sheet for different usage and to return indicated sheet.
 2. Be able to handle multiple classes (separate them from a mixed list, generate report for each one, and generate comparison report)

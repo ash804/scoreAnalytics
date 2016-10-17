@@ -8,21 +8,19 @@
 6.In Data sheet(sheet1), one button for generate report, one button for cleaning generated data.
 7. There is no saving for all data.
 
-V1.5
+V1.5 - Done @2016.10.9
 1. Add a sheet manager to dynamically allocate sheet for different usage and to return indicated sheet
 2. Class sheets will be dynaimcally generated, if same class sheet is generated, the old one will be backup.
 3. Add a new static sheet for saving the score of each question in objective question part.
 
-V2.1
+V2.0 - Done @2016.10.17
 1. Add a sheet manager to dynamically allocate sheet for different usage and to return indicated sheet.
 2. Be able to handle multiple classes (separate them from a mixed list, generate report for each one, and generate comparison report)
-3. Be able to get the address of columns dynamically instead of hardcode.
-
 
 V2.2
 1.Add option for selecting the content in the comparison report 
 2.Add a button to import students information(id and name) from a static list
-
+3. Be able to get the address of columns dynamically instead of hardcode.
 
 V3
 1. Use template or button to change the structure of scores (2 sub scores or 6 sub scores)
